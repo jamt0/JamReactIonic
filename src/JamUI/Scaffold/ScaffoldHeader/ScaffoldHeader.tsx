@@ -1,7 +1,7 @@
 import React from "react";
 import { IonHeader, IonToolbar, IonTitle } from "@ionic/react";
-import ScaffoldHeaderActions from "components/Scaffold/ScaffoldHeader/ScaffoldHeaderActions";
-import ScaffoldHeaderBackAction from "components/Scaffold/ScaffoldHeader/ScaffoldHeaderBackAction";
+import ScaffoldHeaderActions from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHeaderActions";
+import ScaffoldHeaderBackAction from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHeaderBackAction";
 
 type Props = {
   children: React.ReactNode;

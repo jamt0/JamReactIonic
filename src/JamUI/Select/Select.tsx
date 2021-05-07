@@ -1,10 +1,10 @@
 import React, { Fragment, FunctionComponent } from "react";
-import Item from "components/Item/Item";
-import Label from "components/Label/Label";
+import Item from "JamUI/Item/Item";
+import Label from "JamUI/Label/Label";
 import { IonSelect, IonSelectOption } from "@ionic/react";
 import { ErrorMessage } from "@hookform/error-message";
 import { Controller } from "react-hook-form";
-import ErrorText from "components/Error/ErrorText";
+import ErrorText from "JamUI/Error/ErrorText";
 
 type Option = {
   label: string;

@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import Container from "components/Container/Container";
+import Container from "JamUI/Container/Container";
 import { IonSearchbar } from "@ionic/react";
 
 type Props = {

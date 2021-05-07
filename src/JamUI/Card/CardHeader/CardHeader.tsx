@@ -1,7 +1,7 @@
 import React from "react";
-import CardHeaderExpanded from "components/Card/CardHeader/CardHeaderExpanded";
-import CardHeaderCompact from "components/Card/CardHeader/CardHeaderCompact";
-import Item from "components/Item/Item";
+import CardHeaderExpanded from "JamUI/Card/CardHeader/CardHeaderExpanded";
+import CardHeaderCompact from "JamUI/Card/CardHeader/CardHeaderCompact";
+import Item from "JamUI/Item/Item";
 
 type Props = {
   routerLink?: string;

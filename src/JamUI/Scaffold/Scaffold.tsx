@@ -1,7 +1,7 @@
 import React from "react";
-import ScaffoldContent from "components/Scaffold/ScaffoldContent";
-import ScaffoldFooter from "components/Scaffold/ScaffoldFooter";
-import ScaffoldHeader from "components/Scaffold/ScaffoldHeader/ScaffoldHeader";
+import ScaffoldContent from "JamUI/Scaffold/ScaffoldContent";
+import ScaffoldFooter from "JamUI/Scaffold/ScaffoldFooter";
+import ScaffoldHeader from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHeader";
 import { IonPage } from "@ionic/react";
 
 type Props = {

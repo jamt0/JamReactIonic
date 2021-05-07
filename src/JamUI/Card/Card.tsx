@@ -1,6 +1,6 @@
 import React from "react";
-import CardHeader from "components/Card/CardHeader/CardHeader";
-import CardContent from "components/Card/CardContent";
+import CardHeader from "JamUI/Card/CardHeader/CardHeader";
+import CardContent from "JamUI/Card/CardContent";
 import { IonCard } from "@ionic/react";
 
 type Props = React.ComponentProps<any> & {

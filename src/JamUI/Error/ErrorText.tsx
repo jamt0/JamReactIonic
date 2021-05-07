@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import Text from "components/Text/Text";
+import Text from "JamUI/Text/Text";
 
 type Props = {};
 

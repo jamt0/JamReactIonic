@@ -1,5 +1,5 @@
-import Scaffold from "components/Scaffold/Scaffold";
 import React, { FunctionComponent } from "react";
+import Scaffold from "JamUI/Scaffold/Scaffold";
 
 type Props = {
   texts: any;

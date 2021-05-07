@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { IonAvatar } from "@ionic/react";
-import Image from "components/Image/Image";
+import Image from "JamUI/Image/Image";
 
 type Props = {
   size: number;

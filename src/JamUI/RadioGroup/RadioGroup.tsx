@@ -1,5 +1,5 @@
 import React, { FunctionComponent, Fragment } from "react";
-import Radio from "components/Radio/Radio";
+import Radio from "JamUI/Radio/Radio";
 import { IonRadioGroup } from "@ionic/react";
 import { Controller } from "react-hook-form";
 

@@ -1,35 +1,35 @@
 import React, { Fragment, FunctionComponent } from "react";
-import Item from "components/Item/Item";
-import Label from "components/Label/Label";
-import ErrorText from "components/Error/ErrorText";
-import { IonInput } from "@ionic/react";
+import Label from "JamUI/Label/Label";
+import Item from "JamUI/Item/Item";
+import ErrorText from "JamUI/Error/ErrorText";
 import { ErrorMessage } from "@hookform/error-message";
+import { IonTextarea } from "@ionic/react";
 import { Controller } from "react-hook-form";
 
 type Props = {
+  defaultValue: any;
   control: any;
   errors: any;
-  defaultValue: any;
-  name: string;
   rules: any;
+  name: string;
   label: string;
-  type: any;
-}
+  placeHolder: string;
+};
 
-const Input: FunctionComponent<Props> = (props) => (
+const TextArea: FunctionComponent<Props> = (props) => (
   <Fragment>
-    <Item className="mb-4" lines="full">
+    <Item className="mb-4">
       <Label position="floating" color="primary">
         {props.label}
       </Label>
       <Controller
         render={({ field: { onChange, onBlur, value, ref } }) => (
-          <IonInput
-            autocomplete="new-password" //Por ahora la solucion fue dejar el value para permitir inicializar, pero no funciona el autocomplete, buscar solucion a esto despues
+          <IonTextarea
+            placeholder={props.placeHolder}
+            rows={4}
             className="mt-2"
             onIonChange={onChange}
             onIonBlur={onBlur}
-            type={props.type}
             value={value} //comentar esto soluciona lo del autocompletado, pero daña los valores iniciales
           />
         )}
@@ -42,4 +42,5 @@ const Input: FunctionComponent<Props> = (props) => (
     <ErrorMessage errors={props.errors} name={props.name} as={<ErrorText />} />
   </Fragment>
 );
-export default Input;
+
+export default TextArea;

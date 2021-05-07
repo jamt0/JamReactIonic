@@ -1,6 +1,6 @@
 import React, { Fragment, FunctionComponent } from "react";
-import Image from "components/Image/Image";
-import Container from "components/Container/Container";
+import Image from "JamUI/Image/Image";
+import Container from "JamUI/Container/Container";
 
 type Props = {
   src: string;

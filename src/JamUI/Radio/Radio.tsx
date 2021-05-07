@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
-import Text from "components/Text/Text";
-import Item from "components/Item/Item";
+import Text from "JamUI/Text/Text";
+import Item from "JamUI/Item/Item";
 import { IonRadio } from "@ionic/react";
 
 type Props = {
