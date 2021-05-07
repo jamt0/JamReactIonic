@@ -4,7 +4,7 @@ import ScaffoldHeaderActions from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHeaderA
 import ScaffoldHeaderBackAction from "JamUI/Scaffold/ScaffoldHeader/ScaffoldHeaderBackAction";
 
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   title?: string;
 };
 
