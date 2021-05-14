@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import Label from "JamUI/Label/Label";
+import { Label } from "JamUI";
 
 type Props = {};
 

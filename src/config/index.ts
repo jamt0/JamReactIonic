@@ -1,1 +1,1 @@
-export type config = {};
+export default {};

@@ -2,8 +2,8 @@ import React from "react";
 import { IonRouterOutlet } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Redirect, Route } from "react-router";
-import RoutesPath from "util/routesPath";
-import Home from "pages/Home/Home";
+import { Home, NoFound } from "pages/containers";
+import RoutesPath from "routes";
 
 const AppRoutes: React.FC = () => {
   return (
@@ -14,6 +14,9 @@ const AppRoutes: React.FC = () => {
         </Route>
         <Route path={RoutesPath.welcome} exact>
           <Redirect to={RoutesPath.home} />
+        </Route>
+        <Route>
+          <NoFound />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

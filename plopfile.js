@@ -12,7 +12,7 @@ module.exports = plop => {
         {
           type: 'add',
           path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.tsx',
-          templateFile: 'plop-templates/Component.tsx.hbs',
+          templateFile: 'plop_templates/Component.tsx.hbs',
         },
       ],
     });
@@ -29,12 +29,12 @@ module.exports = plop => {
           {
             type: 'add',
             path: 'src/pages/{{pascalCase name}}/{{pascalCase name}}.tsx',
-            templateFile: 'plop-templates/Page.tsx.hbs',
+            templateFile: 'plop_templates/Page.tsx.hbs',
           },
           {
             type: 'add',
             path: 'src/pages/{{pascalCase name}}/{{pascalCase name}}View.tsx',
-            templateFile: 'plop-templates/PageView.tsx.hbs',
+            templateFile: 'plop_templates/PageView.tsx.hbs',
           },
         ],
       });
